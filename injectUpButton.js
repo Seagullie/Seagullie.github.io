@@ -33,4 +33,5 @@ function injectUpButton(){
 
     var _up_button = document.querySelector("._up_button")
     _up_button.onclick = () => {html.scrollTop = 0}
+    alert('upd!')
         }
