@@ -25,9 +25,6 @@ function injectUpButton(){
                 padding: 8px;
             }
 
-            body{
-                height: 3000px;
-            }
             </style>
             <div class="_up_button">
             Up
