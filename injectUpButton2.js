@@ -1,6 +1,6 @@
-function injectUpButton(){
+function injectUpButton() {
             var html = document.querySelector("html")
-            
+
             injectionHTML = `<style>
             ._up_button{
                 display: inline-block;
@@ -25,12 +25,29 @@ function injectUpButton(){
                 padding: 8px;
             }
 
+            body{
+                height: 3000px;
+            }
             </style>
             <div class="_up_button">
             Up
             </div>`
-    html.insertAdjacentHTML("beforeend", injectionHTML)
+            html.insertAdjacentHTML("beforeend", injectionHTML)
 
-    var _up_button = document.querySelector("._up_button")
-    _up_button.onclick = () => {html.scrollTop = 0}
+            function getRelativePosition() {
+                return html.scrollTop / html.scrollHeight
+            }
+
+            var _up_button = document.querySelector("._up_button")
+            _up_button.onclick = () => {
+                getRelativePosition() > 0.6 ? html.scrollTop = 0 : html.scrollTop = html.scrollHeight
+            }
+
+            window.onscroll = (e) => {
+                getRelativePosition() > 0.6 ? _up_button.innerHTML = 'Up' : _up_button.innerHTML = 'Down'
+            }
         }
+
+
+
+        injectUpButton()
