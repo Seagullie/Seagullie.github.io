@@ -47,7 +47,3 @@ function injectUpButton() {
                 getRelativePosition() > 0.6 ? _up_button.innerHTML = 'Up' : _up_button.innerHTML = 'Down'
             }
         }
-
-
-
-        injectUpButton()
