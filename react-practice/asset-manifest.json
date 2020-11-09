@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.933b1f28.chunk.css",
+    "main.js": "/static/js/main.d5a30ed3.chunk.js",
+    "main.js.map": "/static/js/main.d5a30ed3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.fc3ec09e.chunk.js": "/static/js/2.fc3ec09e.chunk.js",
+    "static/js/2.fc3ec09e.chunk.js.map": "/static/js/2.fc3ec09e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cd029c3097ff7977e89505f9631613ee.js": "/precache-manifest.cd029c3097ff7977e89505f9631613ee.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.933b1f28.chunk.css.map": "/static/css/main.933b1f28.chunk.css.map",
+    "static/js/2.fc3ec09e.chunk.js.LICENSE.txt": "/static/js/2.fc3ec09e.chunk.js.LICENSE.txt",
+    "static/media/circle.svg": "/static/media/circle.63f7009e.svg",
+    "static/media/close.svg": "/static/media/close.da839189.svg",
+    "static/media/seagull.png": "/static/media/seagull.fd9df25f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.fc3ec09e.chunk.js",
+    "static/css/main.933b1f28.chunk.css",
+    "static/js/main.d5a30ed3.chunk.js"
+  ]
+}
